@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Youth</title>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/home.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<!-- owl -->
+<link rel="stylesheet" href="owl/owl.theme.default.css" />
+<link rel="stylesheet" href="owl/owl.carousel.min.css" />
+</head>
+<body>
+   <nav id="Navbar" class="navbar navbar-expand-md bg-light navbar-dark d-flex justify-content-between mb-5">
+  <!-- Brand -->
+  <a  class="navbar-brand ml-md-5" href="index.html">
+      <img  src="imgs/logo.png" alt="Tech Youth" width="120px">
+  </a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button style="border:1.5px solid #f95f00;background: #f95f00;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class=" d-md-flex justify-content-around collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="index.html" style="font-weight: 600;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="courses.html">Courses</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-dark" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ">
+      <form class=" d-flex justify-content-between">
+        <button type="button" class=" nav-item mx-md-2" id="login" data-toggle="modal" data-target="#loginModal1">Login</button>
+        <button type="button" class="nav-item mx-md-2" id="register" data-toggle="modal" data-target="#registerModal1">register</button>
+      </form>
+      </ul>
+  </div>
+</nav>  
+
+<!-- banner -->
+<section class="container  d-md-flex justify-content-between">
+   <div class="col-md-6 mb-5" style="word-wrap: break-word;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ipsum aliquam, voluptate nam quidem fugit eveniet ratione laboriosam iste minus necessitatibus temporibus quaerat magnam aut deleniti ex nostrum ab enim.</div>
+   <div class="col-md-6">
+       <img src="imgs/product-1.jpeg"  class="img-fluid" alt="family picture">
+   </div>
+</section>
+<!-- explore -->
+<section class=" explore-section p-4 mt-5"  >
+  <h2>Explore your career</h2>
+  <h5>let us help you to improve your skills</h5>
+  <form class="d-flex my-5 " >
+    <select name="cars" class="custom-select w-100" >
+      <option selected>peck a career</option>
+      <option value="tech">Technical</option>
+      <option value="hr">HR</option>
+      <option value="pr">PR</option>
+      <option value="sm">Social</option>
+      <option value="pm">Project Management</option>
+    </select>
+    <button type="button" class="btn " >explore</button>
+  </form>
+</section>
+<!-- info -->
+<article class="p-5 d-flex bg-light  " style=" flex-wrap: wrap;">
+  <section class="d-flex col-6 col-md-4 mb-4  align-items-baseline">
+    <div> <i class="fas fa-headset" style="font-size: 30px;"></i> </div>
+    <div class="ml-3">
+      <h3>20</h3>
+      <h5>speakers </h5>
+    </div>
+  </section>
+  <section class="d-flex col-6 col-md-4 mb-4  align-items-baseline">
+    <div> <i class=" 	fa fa-american-sign-language-interpreting" style="font-size: 30px;"></i> </div>
+    <div class="ml-3">
+      <h3>20</h3>
+      <h5>mentors </h5>
+    </div>
+  </section>
+  <section class="d-flex col-6 col-md-4 mb-4 align-items-baseline">
+    <div> <i class="fas fa-users" style="font-size: 30px;"></i> </div>
+    <div class="ml-3">
+      <h3>180</h3>
+      <h5>members </h5>
+    </div>
+  </section>
+  <section class="d-flex col-6 col-md-4 mb-4 align-items-baseline">
+    <div> <i class="fa fa-file-code" style="font-size: 30px;"></i> </div>
+    <div class="ml-3">
+      <h3>15</h3>
+      <h5>workshops </h5>
+    </div>
+  </section>
+  <section class="d-flex col-6 col-md-4 mb-4 align-items-baseline">
+    <div> <i class=" 	fa fa-calendar" style="font-size: 30px;"></i> </div>
+    <div class="ml-3">
+      <h3>15</h3>
+      <h5>events </h5>
+    </div>
+  </section>
+  <section class="d-flex col-6 col-md-4 mb-4 align-items-baseline">
+    <div> <i class=" 	fa fa-handshake" style="font-size: 30px;"></i> </div>
+    <div class="ml-3">
+      <h3>15</h3>
+      <h5>sponsors </h5>
+    </div>
+  </section>
+</article>
+<!-- our courses -->
+<h2 class="mt-5" style=" color: #2a007c; text-align: center;text-transform: uppercase;">our courses</h2>
+<article class="container-fluid py-5 d-sm-flex justify-content-between"  style="flex-wrap: wrap;">
+  <section class="col-sm-6 col-md-4 mb-4 ">
+  <img class="card-img-top " src="imgs/9.jpg" alt="Card image">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Python Course</h4>
+      <p class="card-text">instructor : Muhammad Mostafa </p>
+      <a href="#" class="btn btn-dark">Go to the course</a>
+    </div>
+  </div>
+</section>
+<section class="col-sm-6 col-md-4 mb-4 ">
+  <img class="card-img-top" src="imgs/9.jpg" alt="Card image">
+  <div class="card ">
+    <div class="card-body">
+      <h4 class="card-title">Python Course</h4>
+      <p class="card-text">instructor : Muhammad Mostafa </p>
+      <a href="#" class="btn btn-dark">Go to the course</a>
+    </div>
+  </div>
+  </section>
+<section class="col-sm-6 col-md-4 mb-4 ">
+  <img class="card-img-top" src="imgs/9.jpg" alt="Card image">
+  <div class="card ">
+    <div class="card-body">
+      <h4 class="card-title">Python Course</h4>
+      <p class="card-text">instructor : Muhammad Mostafa </p>
+      <a href="#" class="btn btn-dark">Go to the course</a>
+    </div>
+  </div>
+  </section>
+</article>
+<div class="mb-5" style="text-align: center;">
+  <a href="courses.html" class="btn btn-primary" style="text-align: center;max-width: 220px;font-size: larger;font-weight: 600; ">See more courses</a>
+</div>
+<!-- team cores -->
+ <section class="team mb-5 bg-light py-4" id="team">
+   <h2 class="mb-5" style="text-align: center;">Team Cores</h2>
+  <div class="team_center owl-carousel owl-theme container-fluid">
+    <!-- owl class names should be like this  -->
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+    <section class="d-flex" style="flex-direction: column;text-align: center;">
+      <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+      <div class="card ">
+        <div class="card-body">
+          <h4 class="card-title">Muhammad Mostafa</h4>
+          <p class="card-text">django developer </p>
+          <p class="card-text">IT Core </p>
+          <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#myModal" >See more</a>
+        </div>
+      </div>
+      </section>
+  </div>
+</section>
+<!-- sponsores -->
+<h2 class="my-5" style="text-align: center;">Our Sponsores</h2>
+<article class="d-flex mb-5" style="flex-wrap: wrap;">
+  <section class="d-flex col-sm-6 col-md-4 mb-3" style="flex-direction: column;text-align: center;">
+    <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+    <div class="card ">
+      <div class="card-body">
+        <h4 class="card-title">sponsor name</h4>
+        <p class="card-text lead">details </p>
+        <p class="card-text lead"> address </p>
+      </div>
+    </div>
+    </section>
+  <section class="d-flex col-sm-6 col-md-4 mb-3" style="flex-direction: column;text-align: center;">
+    <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+    <div class="card ">
+      <div class="card-body">
+        <h4 class="card-title">sponsor name</h4>
+        <p class="card-text lead">details </p>
+        <p class="card-text lead"> address </p>
+      </div>
+    </div>
+    </section>
+  <section class="d-flex col-sm-6 col-md-4 mb-3" style="flex-direction: column;text-align: center;">
+    <img class="card-img-top" src="imgs/team-1.jpg" alt="Card image">
+    <div class="card ">
+      <div class="card-body">
+        <h4 class="card-title">sponsor name</h4>
+        <p class="card-text lead">details </p>
+        <p class="card-text lead"> address </p>
+      </div>
+    </div>
+    </section>
+  
+</article>
+<!-- footer -->
+<footer class="text-light py-3" style="background: #2a007c;">
+  <section class="container-fluid py-5 d-sm-flex justify-content-between ">
+    <div>
+      <img src="imgs/logo.png" alt="tec Youth logo" class="mb-3" width="50px">
+      <h4> tec Youth is ................ ..................................</h4>
+      <div class="my-3">
+        <i style="font-size: 25px;" class="mr-3 fab fa-facebook"></i>
+        <i style="font-size: 25px;" class="mr-3 fab fa-youtube"></i>
+        <i style="font-size: 25px;" class="mr-3 fab fa-instagram"></i>
+        <i style="font-size: 25px;" class="mr-3 fab fa-linkedin"></i>
+      </div>
+    </div>
+     <div>
+       <h4>Contact Us</h4>
+       <div>
+        <i class="fas fa-mobile mr-3"></i>
+        <span>01023359856</span>
+       </div>
+       <div>
+        <i class="fa fa-envelope mr-3"></i>
+        <span>..@...com</span>
+       </div>
+       <div>
+        <i class="fa fa-map-marker mr-3"></i>
+        <span>Lorem ipsum dolor sit amet-.......-......
+        </span>
+       </div>
+     </div>
+  </section>
+  <div class="container">
+    <hr class="bg-dark">
+  </div>
+  <p class="lead" style="text-align: center;">Copyright &copy; All rights reserved to tec youth</p>
+</footer>
+<!-- Modals -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3>Muhammad Mostafa</h3>
+        <h4>django developer</h4>
+        <h4>skills :</h4>
+        <ul>
+          <li style="margin-left: 5.5rem;">...</li>
+          <li style="margin-left: 5.5rem;">...</li>
+          <li style="margin-left: 5.5rem;">...</li>
+          <li style="margin-left: 5.5rem;">...</li>
+          <li style="margin-left: 5.5rem;">...</li>
+        </ul>
+        <h4>another information</h4>
+        <p class=".lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ullam culpa itaque voluptates tenetur nostrum quod amet aut harum quasi nesciunt suscipit, aspernatur cumque. Nihil reprehenderit ratione quos eius qui?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- login modal -->
+<div class="modal fade" id="loginModal1" role="dialog">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <img src="imgs/logo.png" alt="logo" width="15%">
+              <button type="button" class="close-icon" data-dismiss="modal">x</button>
+          </div>
+          <h1 class="dialog-h1" style="text-transform: uppercase;">login</h1>
+          <div class="modal-body">
+              <div class="form-group dialog-inps">
+                  <input type="email" class="form-control" placeholder="email">
+                  <input type="password" class="form-control" placeholder="password">
+                  <input type="button" class="form-control btn" data-dismiss="modal" value="login">
+                  <!-- <a class="modal-a" data-dismiss="modal" data-toggle="modal" data-target="#loginModal2">forgot password ?</a> -->
+              </div>
+          </div>
+      </div>
+  </div>
+</div> 
+ <!-- register level one -->
+ <div class="modal fade" id="registerModal1" role="dialog">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+            <img src="imgs/logo.png" alt="logo" width="15%">
+              <button type="button" class="close-icon" data-dismiss="modal">x</button>
+          </div>
+          <h1 class="dialog-h1">register</h1>
+          <div class="modal-body">
+              <div class="form-group dialog-inps">
+                  <input type="text" class="form-control" placeholder="username">
+                  <input type="email" class="form-control" placeholder="email">
+                  <input type="password" class="form-control" placeholder="password">
+                  <input type="password" class="form-control" placeholder="confirm password">
+                  <input type="button" class="form-control btn" data-dismiss="modal" data-toggle="modal" data-target="#registerModal2" value="register">
+
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- register second level -->
+<div class="modal fade" id="registerModal2" role="dialog">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+            <img src="imgs/logo.png" alt="logo" width="15%">
+              <button type="button" class="close-icon" data-dismiss="modal">x</button>
+          </div>
+          <h1 class="dialog-h1">enter the code</h1>
+          <h5 class="dialog-h5">an OTP code sent to your email</h5>
+          <div class="modal-body">
+              <div class="form-group dialog-inps">
+                  <input type="text" class="form-control" placeholder="OTP Code">
+                  <input type="button" class="form-control btn" data-dismiss="modal" data-toggle="modal" data-target="#registerModal2" value="register">
+
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- owl -->
+<script src="owl/owl.carousel.min.js"></script>
+<!-- js code -->
+<script src="javaScript/script.js"></script>
+</body>
+</html>
